@@ -1,6 +1,19 @@
 import React from "react";
-import PortfolioContainer from "./components/PortfolioContainer";
+import Header from './components/Header';
+import Footer from './components/pages/Footer';
+import './App.css';
+import 'bootstrap'
 
-const App = () => <PortfolioContainer />;
+const App = () => {
+  return (
+    <div>
+        <Header />
+        <Footer />
+    </div>
+
+  )
+}
+
+
 
 export default App;

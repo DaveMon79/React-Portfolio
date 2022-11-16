@@ -4,22 +4,20 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import Project from './pages/Project';
 import CV from './pages/CV';
-import Header from './pages/Header';
-import Footer from './Footer';
 
 
-export default function PortfolioContainer() {
+export default function Header() {
     const [currentPage, setCurrentPage] = useState('About');
 
     // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
     const renderPage = () => {
-        if (currentPage === 'Contact') {
+        if (currentPage === 'About') {
             return <About />;
         }
-        if (currentPage === 'About') {
+        if (currentPage === 'Project') {
             return <Project />;
         }
-        if (currentPage === 'Project') {
+        if (currentPage === 'Contact') {
             return <Contact />;
         }
         if (currentPage === 'CV') {
@@ -31,17 +29,18 @@ export default function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-   
-            <Header />,
-  
         <div>
-            {/* We are passing the currentPage from state and the function to update it */}
-            <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-            {/* Here we are calling the renderPage method which will return a component  */}
-            {renderPage()}
-        </div>,
+            <div>
+                <h1>Dave Monaghan - React Portfolio</h1>
+            </div>
 
-            <Footer />
-    
+            <div>
+                {/* We are passing the currentPage from state and the function to update it */}
+                <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+                {/* Here we are calling the renderPage method which will return a component  */}
+                {renderPage()}
+            </div>
+        </div>
+
     );
 }
