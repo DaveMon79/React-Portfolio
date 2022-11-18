@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import Contact from './pages/Contact';
 import About from './pages/About';
-import Project from './pages/Project';
+import Project from './pages/ProjectList';
 import CV from './pages/CV';
 
 

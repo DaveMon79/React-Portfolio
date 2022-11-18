@@ -4,5 +4,6 @@ export function ValidateEmail(email)
   {
     return (true)
   }
+  else  
     return (false)
 }
