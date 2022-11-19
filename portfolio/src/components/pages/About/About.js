@@ -1,8 +1,9 @@
 import React from 'react';
+import "./about.css"
 
 export default function About() {
     return (
-        <div>
+        <div className='container'>
             <div>
                 <h2>About me:</h2>
             </div>

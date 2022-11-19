@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
-import Contact from './pages/Contact';
-import About from './pages/About';
-import Project from './pages/ProjectList';
-import CV from './pages/CV';
+import Contact from './pages/contact/Contact';
+import About from './pages/About/About';
+import Project from './pages/portfolio/ProjectList';
+import CV from './pages/cv/CV';
+import "../components/styles/header.css"
 
 
 export default function Header() {
@@ -30,16 +31,20 @@ export default function Header() {
 
     return (
         <div>
-            <div>
-                <h1>Dave Monaghan - React Portfolio</h1>
-            </div>
+            <header className='header'>
 
-            <div>
-                {/* We are passing the currentPage from state and the function to update it */}
-                <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-                {/* Here we are calling the renderPage method which will return a component  */}
+                <div>
+                    <h1>Dave Monaghan - React Portfolio</h1>
+                </div>
+                <div className='nav'>
+                    <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+                </div>
+            </header>
+
+            <main>
                 {renderPage()}
-            </div>
+            </main>
+           
         </div>
 
     );

@@ -1,0 +1,25 @@
+.container {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10vh;
+
+}
+
+h3, h1 {
+    margin:  3vh 0 3vh 0;
+}
+
+p {
+    line-height: 1.5;
+    margin-top: 3vh;
+    text-align: justify;
+}
+
+
+@media screen and (min-width: 768) {
+    .container {
+        width: 50%;
+        margin-left: 25%;
+    }
+  
+  } 

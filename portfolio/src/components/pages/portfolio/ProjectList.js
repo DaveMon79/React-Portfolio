@@ -6,13 +6,13 @@ const ProjectList = () => {
     const [projectList, setProjectList] = useState([
         {
             name: "Tradr Marketplace", 
-            image: "./images.tradr.png", 
+            image: "./images/tradr.png", 
             liveURL: "https://calm-gorge-52770.herokuapp.com",
             github: "https://github.com/DaveMon79/tradr-marketplace"
         },
         {
             name: "Geek blog", 
-            image: "./images/geek-blog.png", 
+            image: ("./images/geek-blog.png"), 
             liveURL: "https://immense-dusk-95671.herokuapp.com/",
             github: "https://github.com/DaveMon79/Geek-Blog"
         },

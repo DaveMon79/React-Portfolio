@@ -1,0 +1,17 @@
+
+
+.cvList li {
+    flex-wrap: nowrap;
+    display: block;
+    color: black;
+    margin-top: 3vh;
+}
+
+.download h5 a {
+    font-size: 20px;
+    color: blue;
+}
+
+h5 {
+    font-size: 15px;
+}
