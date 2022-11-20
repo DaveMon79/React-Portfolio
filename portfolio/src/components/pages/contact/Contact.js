@@ -18,26 +18,21 @@ const Contact = () => {
             const valid = ValidateEmail(e.target.value)
 
             if (!valid) {
-                setErrMessage(`${valid} is not a valid email. Please enter a vaild email. `)
+                setErrMessage(`Is not a valid email. Please enter a vaild email. `)
             }
             else if (valid) {
-                setErrMessage("")
-            }
-            else {
-                if (!e.target.value.length) {
-                    setErrMessage(`A ${e.target.name} is required.`);
-                } else {
-                    setErrMessage('');
-                }
-            }
-            if (!err) {
-                setContactState({ ...contactState, [e.target.name]: e.target.value });
-                console.log('Handle Form', contactState);
+                setErrMessage(`Email is valid`)
+
+            };
+        }
+
+        }
+
+        const handleNoInput  = (e) => {
+            if(e.target.value === '') {
+                setErrMessage(`Please input a valid ${e.target.id}` )
             }
         }
-    };
-
-
 
     return (
         <div className='container'>
@@ -47,11 +42,11 @@ const Contact = () => {
 
             <form>
                 <h5>Name:</h5>
-                <input datatype={name} type='name' placeholder=''></input>
+                <input datatype={name} id="name" type='name' onBlur={handleNoInput} ></input>
                 <h5>Email:</h5>
-                <input datatype={email} type='email' placeholder=''></input>
+                <input datatype={email} id="email" type='email' onBlur={handleContactChange}></input>
                 <h5>Message:</h5>
-                <textarea datatype={message} type='message' placeholder=''></textarea>
+                <textarea datatype={message} id="message" type='message' onBlur={handleNoInput}></textarea>
             </form>
 
             <div className='err'>
@@ -63,7 +58,6 @@ const Contact = () => {
             </div>
         </div>
     );
-
 
 }
 

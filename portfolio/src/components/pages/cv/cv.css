@@ -1,20 +1,8 @@
 
 
-li {
-    flex-wrap: nowrap;
-    display: block;
-    color: black;
-    margin-top: 3vh;
-    list-style: disc;
-    background-color: rgb(223, 209, 209);
-    width: fit-content;
-}
+
 
 .download  a {
     font-size: 20px;
     color: white;
-}
-
-h5 {
-    font-size: 15px;
 }
