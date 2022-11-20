@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Navigation from './Navigation';
-import Contact from './pages/contact/Contact';
-import About from './pages/About/About';
-import Project from './pages/portfolio/ProjectList';
-import CV from './pages/cv/CV';
+import Contact from './Contact';
+import About from './About';
+import Project from './ProjectList';
+import CV from './CV';
 
 
 
@@ -41,7 +41,7 @@ export default function Header() {
                 <div
                     className="p-5 text-center bg-image"
                     style={{
-                        backgroundImage: `url("https://cdn.pixabay.com/photo/2016/03/24/08/06/circle-1276248_960_720.jpg")`,
+                        backgroundImage: `url("https://cdn.pixabay.com/photo/2017/11/03/17/04/computer-2914933_960_720.jpg")`,
                         height: "290px",
                       }}>
                     <div className="mask" style={{backgroundColor: "rgba(0, 0, 0, 0.6)"}}>

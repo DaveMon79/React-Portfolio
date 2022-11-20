@@ -1,12 +1,12 @@
 import React from 'react';
 import { useState } from "react"
 import Portfolio from "./Portfolio"
-import tradr from  "../../../Assets/Images/tradr.png";
-import GeekBlog from "../../../Assets/Images/geek-blog.png"
-import Weather from "../../../Assets/Images/weather.png"
-import Movie from "../../../Assets/Images/movie-madness.png"
-import Mongo from "../../../Assets/Images/mongo.png"
-import GeekQuiz from "../../../Assets/Images/geekquiz.png"
+import tradr from  "../../Assets/Images/tradr.png";
+import GeekBlog from "../../Assets/Images/geek-blog.png"
+import Weather from "../../Assets/Images/weather.png"
+import Movie from "../../Assets/Images/movie-madness.png"
+import Mongo from "../../Assets/Images/mongo.png"
+import GeekQuiz from "../../Assets/Images/geekquiz.png"
 
 
 

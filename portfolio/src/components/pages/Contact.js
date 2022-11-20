@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from "react";
-import ValidateEmail from "../../utils/helpers";
-import "./contact.css"
+import ValidateEmail from "../utils/helpers";
+import "../../Assets/styles/contact.css"
 
 
 const Contact = () => {
@@ -50,7 +50,7 @@ const Contact = () => {
             </form>
 
             <div className='err'>
-                <h4>{err}</h4>
+                <h4 style={{color:"red"}}>{err}</h4>
             </div>
 
             <div className='submitBtn'>

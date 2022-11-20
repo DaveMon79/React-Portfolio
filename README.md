@@ -88,7 +88,7 @@ To use this appilcation type "npm start", this will create the database and acti
 
 # Screenshot
 
-![image](https://user-images.githubusercontent.com/103275458/200116110-86e645d0-3d4f-46da-af8f-39f5db97cb39.png)
+![image](https://user-images.githubusercontent.com/103275458/202927956-fdc892a6-216a-4982-bc1a-0e92dc3d35a5.png)
 
 # Links
 

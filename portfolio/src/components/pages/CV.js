@@ -1,12 +1,12 @@
 import React from 'react';
-import "./cv.css"
+import "../../Assets/styles/cv.css"
 
 export default function About() {
 
     return (
         <div className='container'>
             <div className='download'>
-                <button><a href={require("../../../Assets/File/cv.pdf")} download>Click to download CV</a></button>
+                <button><a href={require("../../Assets/File/cv.pdf")} download>Click to download CV</a></button>
             </div>
 
             <div>
