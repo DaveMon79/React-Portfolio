@@ -6,12 +6,14 @@ export default function About() {
     return (
         <div className='container'>
             <div className='download'>
-                <h5><a href='./'>Click to download CV</a></h5>
+                <button><a href='./'>Click to download CV</a></button>
             </div>
 
             <div className='proficiencies'>
                 <div>
-                    <h5>Proficiencies</h5>
+                    <h3>Proficiencies</h3>
+
+                    
                 </div>
                 <div>
                     <ul className='cvList'>

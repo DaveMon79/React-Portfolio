@@ -1,17 +1,14 @@
 import React from 'react';
 import "./about.css"
+import ProfilePic from "../../../Assets/profile-pic.png"
 
 export default function About() {
     return (
         <div className='container'>
             <div>
-                <h2>About me:</h2>
+                <img className='profilePic' src={ProfilePic} alt="Me"/>
             </div>
-
-            <div>
-                <img src="../images/DaveMonaghan.jpg" alt="Me" width="450px" />
-            </div>
-            <div>
+            <div className='bio'>
                 <h3>Bio</h3>
                 <p>I'm a highly skilled Customer Service Agent who's worked in the industry for the past 26 years. I’m ready and
                     determined to pursue my passion in Web Development.</p>

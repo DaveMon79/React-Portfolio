@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
+import Navigation from './Navigation';
 import Contact from './pages/contact/Contact';
 import About from './pages/About/About';
 import Project from './pages/portfolio/ProjectList';
 import CV from './pages/cv/CV';
-import "../components/styles/header.css"
+
 
 
 export default function Header() {
@@ -31,21 +31,40 @@ export default function Header() {
 
     return (
         <div>
-            <header className='header'>
 
-                <div>
-                    <h1>Dave Monaghan - React Portfolio</h1>
+            <div>
+                <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+            </div>
+
+            <header>
+
+                <div
+                    className="p-5 text-center bg-image"
+                    style={{
+                        backgroundImage: `url("https://cdn.pixabay.com/photo/2016/03/24/08/06/circle-1276248_960_720.jpg")`,
+                        height: "290px",
+                      }}>
+                    <div className="mask" style={{backgroundColor: "rgba(0, 0, 0, 0.6)"}}>
+                        <div className="d-flex justify-content-center align-items-center h-100">
+                            <div className="text-white">
+                                <h1 className="mb-3">Dave Monaghan</h1>
+                                <h4 className="mb-3">React Portfolio</h4>
+                                <h4>Tel: 07540321620</h4>
+                                <a className="btn btn-outline-light btn-lg text-lowercase" href="mailto:davemonaghan@gmx.com" role="button"
+                                >davemonaghan@gmx</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div className='nav'>
-                    <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-                </div>
+  
             </header>
 
             <main>
                 {renderPage()}
             </main>
-           
+
         </div>
 
     );
 }
+
