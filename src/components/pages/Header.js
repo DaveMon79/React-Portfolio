@@ -27,8 +27,10 @@ export default function Header() {
 
     };
 
+    // Handle page function which calls the curretPage state fuction to render page 
     const handlePageChange = (page) => setCurrentPage(page);
 
+    // HTML which sends the navigation bar and header to App.js
     return (
         <div>
 
@@ -50,8 +52,8 @@ export default function Header() {
                                 <h1 className="mb-3">Dave Monaghan</h1>
                                 <h4 className="mb-3">React Portfolio</h4>
                                 <h4>Tel: 07540321620</h4>
-                                <a className="btn btn-outline-light btn-lg text-lowercase" href="mailto:davemonaghan@gmx.com" role="button"
-                                >davemonaghan@gmx</a>
+                                <a className="btn btn-outline-light btn-lg text-lowercase mt-2" href="mailto:davemonaghan@gmx.com" role="button"
+                                >davemonaghan@gmx.com</a>
                             </div>
                         </div>
                     </div>

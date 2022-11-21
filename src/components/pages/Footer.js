@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+// HTML for footer which is imported in App.js
 export default function Footer() {
     return (
 

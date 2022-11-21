@@ -1,3 +1,4 @@
+/* Width setting for the contact page container */
 .container {
 
     width: 80%;
@@ -8,6 +9,7 @@
    
 }
 
+/* Styling for the input boxes */
 input {
     width: 70%;
     padding: 5px;
@@ -15,6 +17,7 @@ input {
 
 }
 
+/* Styling for the textarea box */
 textarea {
     width: 70%;
     height: 10vh;
@@ -23,14 +26,17 @@ textarea {
 
 }
 
+/* Margin for error message div  */
 .err {
     margin: 3vh 0 3vh 0;
 }
 
+/* Margin for h5 element  */
 h5 {
     margin: 3vh 0 1vh 0;
 }
 
+/* Styling for submit button */
 button {
     margin-top: 3vh;
     background-color: rgb(75, 69, 69);
@@ -39,12 +45,3 @@ button {
     border-radius: 10px;
 }
 
-
-@media screen and (max-width: 768) {
-
-    input, textarea {
-        width: 80%;
-    
-    }
-  
-  } 

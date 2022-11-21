@@ -1,12 +1,14 @@
 import React from 'react';
-import "../../Assets/styles/cv.css"
 
+
+
+// HTML for the about me page
 export default function About() {
 
     return (
-        <div className='container'>
+        <div className='cvContainer mt-5 text-center'>
             <div className='download'>
-                <button><a href={require("../../Assets/File/cv.pdf")} download>Click to download CV</a></button>
+                <button><a style={{ color: "white" }} href={require("../../Assets/File/cv.pdf")} download>Click to download CV</a></button>
             </div>
 
             <div>

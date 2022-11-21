@@ -1,3 +1,4 @@
+/* Styling for anout me page container */
 .container {
     width: 50%;
     margin-left: 25%;
@@ -6,21 +7,22 @@
 
 }
 
+/* Size and position of profile picture */
 .profilePic {
     width: 30%;
     margin-left: 35%;
     margin-bottom: 10vh;
 }
 
+
+/* Margin and font weight for h3 elements  */
 h3 {
     margin:  3vh 0 3vh 0;
     font-weight: bold;
 }
 
-.container h2 {
-    margin: 3vh 0 3vh 0;
-}
 
+/* Styling for p elements on about me page */
 p {
     font-size: smaller;
     line-height: 1.5;
@@ -28,17 +30,9 @@ p {
     text-align: justify;
 }
 
+/* Padding and margin for bio div */
 .bio {
     padding: 0 15px 15px 15px;
-    border-radius: 20px;
     margin-bottom: 10vh;
 }
 
-
-@media screen and (min-width: 768) {
-    .container {
-        width: 50%;
-        margin-left: 25%;
-    }
-  
-  } 

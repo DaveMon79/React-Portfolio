@@ -2,6 +2,7 @@ import React from 'react';
 import "../../Assets/styles/about.css"
 import ProfilePic from "../../Assets/Images/profile-pic.png"
 
+// HTML for the about me page
 export default function About() {
     return (
         <div className='container'>

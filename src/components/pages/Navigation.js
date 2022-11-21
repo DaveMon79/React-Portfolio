@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+// Navigation tabs which render page of choice when option is clicked
 function Navigation({ currentPage, handlePageChange }) {
   return (
 

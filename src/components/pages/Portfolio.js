@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+// Project card function which maps the project list arrray from projectList.js
 const Porfolio = (props) => {
 console.log(props)
     const projects = props.projectList
@@ -28,5 +28,3 @@ console.log(props)
 
 export default Porfolio
 
-// src={project.image}
-// src={"https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"}
