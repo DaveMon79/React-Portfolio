@@ -15,7 +15,7 @@ console.log(props)
             <a href={project.github} className="btn btn-primary me-4 mt-2">Git Hub</a>
             <a href={project.liveURL} className="btn btn-primary mt-2">Live URL</a>
             </div>
-            <h5 className="card-title text-center">{project.name}</h5>
+            <h5 className="card-title text-center mt-3">{project.name}</h5>
             <p className="card-text">{project.description}</p>
           </div>
         </div>
