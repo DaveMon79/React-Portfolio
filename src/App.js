@@ -1,7 +1,7 @@
 import React from "react";
 import Header from './components/pages/Header';
 import Footer from './components/pages/Footer';
-import "../src/Assets/styles/index.css"
+import "./Assets/styles/index.css"
 
 // Imported header and Footer which are displayed at all times
 const App = () => {
