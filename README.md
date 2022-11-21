@@ -94,7 +94,7 @@ To use this appilcation type "npm start", this will create the database and acti
 
 [Github Repository](https://github.com/DaveMon79/React-Portfolio)
 
-[Github Live URL](https://davemon79.github.io/Mongo-Social)
+[Github Live URL](https://davemon79.github.io/React-Portfolio/)
 
   
 # Contributing
