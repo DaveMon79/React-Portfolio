@@ -21,7 +21,7 @@ const Contact = () => {
                 setErrMessage(`Is not a valid email. Please enter a vaild email. `)
             }
             else if (valid) {
-                setErrMessage(`Email is valid`)
+                setErrMessage(``)
 
             };
         }
@@ -43,12 +43,12 @@ return (
         </div>
 
         <form>
-            <h5>Name:</h5>
+            <h6>Name:</h6>
             <input datatype={name} id="name" type='name' onBlur={handleNoInput} ></input>
-            <h5>Email:</h5>
+            <h6>Email:</h6>
             <input datatype={email} id="email" type='email' onBlur={handleContactChange}></input>
-            <h5>Message:</h5>
-            <textarea datatype={message} id="message" type='message' onBlur={handleNoInput}></textarea>7
+            <h6>Message:</h6>
+            <textarea datatype={message} id="message" type='message' onBlur={handleNoInput}></textarea>
         </form>
 
         <div className='err'>
