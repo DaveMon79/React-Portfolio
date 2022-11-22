@@ -5,7 +5,7 @@ import ProfilePic from "../../Assets/Images/profile-pic.png"
 // HTML for the about me page
 export default function About() {
     return (
-        <div className='container'>
+        <div className='container col-sm-6'>
             <div>
                 <img className='profilePic' src={ProfilePic} alt="Me"/>
             </div>
