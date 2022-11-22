@@ -8,7 +8,7 @@ console.log(props)
     return (
         <div className="cardContainer p-5 mb-5">
             {projects.map((project) => (
-          <div className="card col-md-3 p-2 m-5 col-3 col-xs-10 col-sm-6 d-inline-flex">
+          <div className="card col-md-3 p-2 m-5 col-3  col-sm-6 d-inline-flex">
           <img src={project.image} class="card-img-top" alt={ project.name }/>
           <div style={{height:"35vh"}} className="card-body text-center ">
             <div className="d-inline-flex ">
