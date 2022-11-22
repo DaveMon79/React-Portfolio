@@ -1,7 +1,7 @@
 {
-  "main.css": "/React-Portfolio/static/css/main.a2926b65.chunk.css",
-  "main.js": "/React-Portfolio/static/js/main.c58da1cb.chunk.js",
-  "main.js.map": "/React-Portfolio/static/js/main.c58da1cb.chunk.js.map",
+  "main.css": "/React-Portfolio/static/css/main.a10e26af.chunk.css",
+  "main.js": "/React-Portfolio/static/js/main.548b7ba0.chunk.js",
+  "main.js.map": "/React-Portfolio/static/js/main.548b7ba0.chunk.js.map",
   "static/js/1.f427326f.chunk.js": "/React-Portfolio/static/js/1.f427326f.chunk.js",
   "static/js/1.f427326f.chunk.js.map": "/React-Portfolio/static/js/1.f427326f.chunk.js.map",
   "runtime~main.js": "/React-Portfolio/static/js/runtime~main.804d233a.js",
@@ -14,8 +14,8 @@
   "static/media/mongo.png": "/React-Portfolio/static/media/mongo.8c81c254.png",
   "static/media/geekquiz.png": "/React-Portfolio/static/media/geekquiz.304ec737.png",
   "static/media/cv.pdf": "/React-Portfolio/static/media/cv.c8e75707.pdf",
-  "static/css/main.a2926b65.chunk.css.map": "/React-Portfolio/static/css/main.a2926b65.chunk.css.map",
+  "static/css/main.a10e26af.chunk.css.map": "/React-Portfolio/static/css/main.a10e26af.chunk.css.map",
   "index.html": "/React-Portfolio/index.html",
-  "precache-manifest.f035e2e6c6201d8e615d309f69615493.js": "/React-Portfolio/precache-manifest.f035e2e6c6201d8e615d309f69615493.js",
+  "precache-manifest.0a9190f347f4c737a9e006e2076b864d.js": "/React-Portfolio/precache-manifest.0a9190f347f4c737a9e006e2076b864d.js",
   "service-worker.js": "/React-Portfolio/service-worker.js"
 }
