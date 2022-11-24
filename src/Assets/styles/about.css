@@ -17,7 +17,7 @@
 
 /* Margin and font weight for h3 elements  */
 h3 {
-    margin:  3vh 0 3vh 0;
+    margin: 3vh 0 3vh 0;
     font-weight: bold;
 }
 
@@ -36,11 +36,24 @@ p {
     margin-bottom: 10vh;
 }
 
- @media only screen and (max-width: 768px) {
-    .card,
-    .container{
+/* Media settings for small screen responsiveness */
+@media only screen and (max-width: 768px) {
+    .card {
+       right: 15%;
+        display: block;
+        width: 90%;
+        height: 450px;
+        padding-bottom: 5px;
+    }
+
+    .container {
         width: 90%;
         margin-left: 5%;
-        height: fit-content;
-  }
-} 
+        min-height: fit-content;
+    }
+
+    .profilePic {
+        width: 50%;
+        margin-left: 25%;
+    }
+}
