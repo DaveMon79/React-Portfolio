@@ -56,7 +56,7 @@ return (
         </div>
 
         <div className='submitBtn'>
-            <a href='/#About'><button>Submit</button></a>
+            <a href='https://davemon79.github.io/React-Portfolio/#About'><button>Submit</button></a>
         </div>
     </div>
 );
