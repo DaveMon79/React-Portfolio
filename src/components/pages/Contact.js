@@ -4,7 +4,7 @@ import ValidateEmail from "../utils/helpers";
 import "../../Assets/styles/contact.css"
 
 
-const Contact = () => {
+const Contact = ({ currentPage, handlePageChange }) => {
     // State function to handle new contact details 
     const [contactState, setContactState] = useState({ name: '', email: '', message: '' });
     const [err, setErrMessage] = useState('');
@@ -35,6 +35,7 @@ const Contact = () => {
         }
     }
 
+
 // HTML for the contact page 
 return (
     <div className='container'>
@@ -56,10 +57,12 @@ return (
         </div>
 
         <div className='submitBtn'>
-            <a href='https://davemon79.github.io/React-Portfolio/#About'><button>Submit</button></a>
+            <a href="#About" onClick={() => handlePageChange('About')}><button>Submit</button></a>
         </div>
     </div>
 );
+
+
 
 }
 

@@ -7,6 +7,7 @@ import CV from './CV';
 
 
 
+
 export default function Header() {
     const [currentPage, setCurrentPage] = useState('About');
 
@@ -19,7 +20,7 @@ export default function Header() {
             return <Project />;
         }
         if (currentPage === 'Contact') {
-            return <Contact />;
+            return <Contact currentPage={currentPage} handlePageChange={handlePageChange}/>;
         }
         if (currentPage === 'CV') {
             return <CV />;
