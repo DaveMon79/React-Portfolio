@@ -56,7 +56,7 @@ return (
         </div>
 
         <div className='submitBtn'>
-            <a href='/'><button>Submit</button></a>
+            <a href='/#About'><button>Submit</button></a>
         </div>
     </div>
 );
