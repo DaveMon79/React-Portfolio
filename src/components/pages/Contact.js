@@ -35,6 +35,12 @@ const Contact = ({ currentPage, handlePageChange }) => {
         }
     }
 
+    const alertEmail = () => {
+        alert("Email sent to Dave!")
+
+        handlePageChange("About")
+    }
+
 
 // HTML for the contact page 
 return (
@@ -57,7 +63,7 @@ return (
         </div>
 
         <div className='submitBtn'>
-            <a href="#About" onClick={() => handlePageChange('About')}><button>Submit</button></a>
+            <a onClick={() => alertEmail()}><button>Submit</button></a>
         </div>
     </div>
 );
