@@ -8,7 +8,7 @@ function Navigation({ currentPage, handlePageChange }) {
       <div className="container-fluid">
         <div  id="navbarNavAltMarkup">
         <div className='navbar-nav' style={{ display: 'flex', flexDirection: 'row', columnGap: '1rem' }}>
-            <a className="nav-link active" aria-current="page" href="#About" onClick={() => handlePageChange('About')}>About</a>
+            <a className="nav-link active" aria-current="page" href="About" onClick={() => handlePageChange('About')}>About</a>
             <a className="nav-link" href="#Project" onClick={() => handlePageChange('Project')}>Projects</a>
             <a className="nav-link" href="#Contact" onClick={() => handlePageChange('Contact')}>Contact</a>
             <a className="nav-link" href="#CV" onClick={() => handlePageChange('CV')}>CV</a>

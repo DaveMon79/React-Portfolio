@@ -7,6 +7,7 @@ import Weather from "../../Assets/Images/weather.png"
 import Movie from "../../Assets/Images/movie-madness.png"
 import Mongo from "../../Assets/Images/mongo.png"
 import GeekQuiz from "../../Assets/Images/geekquiz.png"
+import Trigger from "../../Assets/Images/trigger.jpg"
 
 
 
@@ -20,9 +21,16 @@ const ProjectList = () => {
             github: "https://github.com/DaveMon79/tradr-marketplace"
         },
         {
+            name: "Trigger", 
+            image: Trigger, 
+            description: "A social media app for owners to rehome pets when they are not able to provide home for them anymore",
+            liveURL: "https://boiling-dusk-63403.herokuapp.com",
+            github: "https://github.com/DaveMon79/Trigger"
+        },
+        {
             name: "Geek blog", 
             image: GeekBlog, 
-            description: "This appliocation allows use to create an account to view, make and comment on tech blogs",
+            description: "This application allows use to create an account to view, make and comment on tech blogs",
             liveURL: "https://immense-dusk-95671.herokuapp.com/",
             github: "https://github.com/DaveMon79/Geek-Blog"
         },

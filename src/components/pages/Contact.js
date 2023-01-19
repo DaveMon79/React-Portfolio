@@ -1,13 +1,15 @@
 import React from 'react';
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ValidateEmail from "../utils/helpers";
 import "../../Assets/styles/contact.css"
 
 
 const Contact = ({ currentPage, handlePageChange }) => {
+
     // State function to handle new contact details 
     const [contactState, setContactState] = useState({ name: '', email: '', message: '' });
     const [err, setErrMessage] = useState('');
+    // const [sent, setEmailMessage] = useState('');
 
     const { name, email, message } = contactState;
 
@@ -35,12 +37,21 @@ const Contact = ({ currentPage, handlePageChange }) => {
         }
     }
 
+    // useEffect(() => {
+    //     console.log("useeffect ran")
+    //   },[contactState]);
+     
     const alertEmail = () => {
-        alert("Email sent to Dave!")
 
+        alert("Email sent to Dave!")
+        // setContactState({ name: '', email: '', message: '' })
         handlePageChange("About")
+        
+
+
     }
 
+ 
 
 // HTML for the contact page 
 return (
@@ -49,17 +60,20 @@ return (
             <h1>Contact Page</h1>
         </div>
 
-        <form>
+        <form
+        action='https://formsubmit.co/el/hezipa/davemonaghan@gmx.com'
+                method="POST">
             <h6>Name:</h6>
-            <input datatype={name} id="name" type='name' onBlur={handleNoInput} ></input>
+            <input datatype={name} id="name" name="name" type='name' onBlur={handleNoInput} ></input>
             <h6>Email:</h6>
-            <input datatype={email} id="email" type='email' onBlur={handleContactChange}></input>
+            <input datatype={email} id="email" name="email" type="email" onBlur={handleContactChange}></input>
             <h6>Message:</h6>
-            <textarea datatype={message} id="message" type='message' onBlur={handleNoInput}></textarea>
+            <textarea datatype={message} id="message" name="message" type='message' onBlur={handleNoInput}></textarea>
         </form>
 
         <div className='err'>
             <p style={{ color: "red" }}>{err}</p>
+            {/* <p style={{ color: "green" }}>{sent}</p> */}
         </div>
 
         <div className='submitBtn'>
