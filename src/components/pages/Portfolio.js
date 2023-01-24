@@ -2,7 +2,7 @@ import React from 'react';
 
 // Project card function which maps the project list arrray from projectList.js
 const Porfolio = (props) => {
-console.log(props)
+
     const projects = props.projectList
 
     return (

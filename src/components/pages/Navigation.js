@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Navigation tabs which render page of choice when option is clicked
-function Navigation({ currentPage, handlePageChange }) {
+function Navigation({ handlePageChange }) {
   return (
 
     <nav className="navbar navbar-expand-lg navbar-light bg-light">

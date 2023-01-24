@@ -20,7 +20,7 @@ const Contact = ({ currentPage, handlePageChange }) => {
             const valid = ValidateEmail(e.target.value)
 
             if (!valid) {
-                setErrMessage(`Is not a valid email. Please enter a vaild email. `)
+                setErrMessage(`${e.target.value} is not a valid email. Please enter a vaild email.`)
             }
             else if (valid) {
                 setErrMessage(``)
@@ -37,14 +37,12 @@ const Contact = ({ currentPage, handlePageChange }) => {
         }
     }
 
-    // useEffect(() => {
-    //     console.log("useeffect ran")
-    //   },[contactState]);
+
      
     const alertEmail = () => {
 
         alert("Email sent to Dave!")
-        // setContactState({ name: '', email: '', message: '' })
+
         handlePageChange("About")
         
 
