@@ -6,9 +6,9 @@ export default function Footer() {
 
         <footer className="bg-light text-center text-white">
             {/* <!-- Grid container --> */}
-            <div className="container p-4 pb-0">
+            <div className="">
                 {/* <!-- Section: Social media --> */}
-                <section className="mb-4">
+                <section className="Social-media">
                     {/* <!-- Facebook --> */}
                     <a
                         className="btn text-white btn-floating m-1"

@@ -53,29 +53,29 @@ const Contact = ({ currentPage, handlePageChange }) => {
 
 // HTML for the contact page 
 return (
-    <div className='container'>
+    <div className='container contact-form'>
         <div>
-            <h1>Contact Page</h1>
+            <h1 className='mb-5'>Contact Form</h1>
         </div>
 
-        <form
+        <form className='form col-lg-6 col-sm-10 form-outline'
         action='https://formsubmit.co/el/hezipa/davemonaghan@gmx.com'
                 method="POST">
-            <h6>Name:</h6>
+            <h6 className='form-text'>Name:</h6>
             <input datatype={name} id="name" name="name" type='name' onBlur={handleNoInput} ></input>
-            <h6>Email:</h6>
+            <h6 className='form-text'>Email:</h6>
             <input datatype={email} id="email" name="email" type="email" onBlur={handleContactChange}></input>
-            <h6>Message:</h6>
+            <h6 className='form-text'>Message:</h6>
             <textarea datatype={message} id="message" name="message" type='message' onBlur={handleNoInput}></textarea>
         </form>
 
         <div className='err'>
             <p style={{ color: "red" }}>{err}</p>
-            {/* <p style={{ color: "green" }}>{sent}</p> */}
+
         </div>
 
         <div className='submitBtn'>
-            <a onClick={() => alertEmail()}><button>Submit</button></a>
+            <a onClick={() => alertEmail()}><button className='btn btn-primary'>Submit</button></a>
         </div>
     </div>
 );
