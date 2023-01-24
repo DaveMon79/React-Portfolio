@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "43e49c136547ae968d08",
-    "url": "/React-Portfolio/static/css/main.306c32b6.chunk.css"
+    "revision": "fd83c5388a002cf10ae2",
+    "url": "/React-Portfolio/static/css/main.a59c5b74.chunk.css"
   },
   {
-    "revision": "43e49c136547ae968d08",
-    "url": "/React-Portfolio/static/js/main.43e49c13.chunk.js"
+    "revision": "fd83c5388a002cf10ae2",
+    "url": "/React-Portfolio/static/js/main.fd83c538.chunk.js"
   },
   {
-    "revision": "f427326fb32135608909",
-    "url": "/React-Portfolio/static/js/1.f427326f.chunk.js"
+    "revision": "b73182ff8a6a7f8b5404",
+    "url": "/React-Portfolio/static/js/1.b73182ff.chunk.js"
   },
   {
     "revision": "804d233a10add83efa8d",
@@ -44,11 +44,15 @@ self.__precacheManifest = [
     "url": "/React-Portfolio/static/media/geekquiz.304ec737.png"
   },
   {
-    "revision": "c8e7570782dabc8d32299a03eea35a3c",
-    "url": "/React-Portfolio/static/media/cv.c8e75707.pdf"
+    "revision": "e86f380869dd6822d9e5a0748814f03d",
+    "url": "/React-Portfolio/static/media/trigger.e86f3808.jpg"
   },
   {
-    "revision": "bbb207bffaba024cb735684580a32172",
+    "revision": "b76c24f144f21db8765ff5c1f985a09c",
+    "url": "/React-Portfolio/static/media/cv.b76c24f1.pdf"
+  },
+  {
+    "revision": "d362fc42abacfc2726624f1867a72402",
     "url": "/React-Portfolio/index.html"
   }
 ];
