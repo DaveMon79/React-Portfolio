@@ -11,7 +11,7 @@ const Porfolio = (props) => {
           <div className="card col-lg-3 col-md-3 col-sm-5 col-10 m-5">
           <img style={{height:"25vh"}} src={project.image} class="card-img-top" alt={ project.name }/>
           <div style={{height:"35vh"}} className="card-body text-center ">
-            <div className="d-inline-flex pb ">
+            <div className="d-inline-flex">
             <a href={project.github} className=" btn btn-primary me-4 mt-2">Git Hub</a>
             <a href={project.liveURL} className="btn btn-primary mt-2">Live URL</a>
             </div>

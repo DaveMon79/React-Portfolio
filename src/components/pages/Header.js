@@ -14,16 +14,16 @@ export default function Header() {
     // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
     const renderPage = () => {
         if (currentPage === 'About') {
-            return <About />;
+            return <About currentPage={currentPage} handlePageChange={handlePageChange}/>;
         }
         if (currentPage === 'Project') {
-            return <Project />;
+            return <Project currentPage={currentPage} handlePageChange={handlePageChange} />;
         }
         if (currentPage === 'Contact') {
             return <Contact currentPage={currentPage} handlePageChange={handlePageChange}/>;
         }
         if (currentPage === 'CV') {
-            return <CV />;
+            return <CV currentPage={currentPage} handlePageChange={handlePageChange}/>;
         }
 
     };
